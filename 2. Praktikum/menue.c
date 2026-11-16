@@ -25,9 +25,9 @@ int main(void) {
                 break;
             case 4:
                 printf("Auf Wiedersehen!");
-                return 0;
+                return EXIT_SUCCESS;
             default:
-                return 1;
+                return EXIT_FAILURE;
         }
     }
 }
