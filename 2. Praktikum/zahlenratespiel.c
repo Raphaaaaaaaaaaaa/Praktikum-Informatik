@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 #include "werkzeuge.h"
 
 void zahlenratespiel_start(void) {

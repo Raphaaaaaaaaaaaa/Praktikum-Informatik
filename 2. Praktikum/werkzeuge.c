@@ -23,7 +23,7 @@ int getEingabe(char* text, int min, int max) {
             return eingabe;
         } else {
             clearBuffer();
-            printf("\nUngueltige Eingabe. Bitte eine Zahl zwischen %d und %d eingeben.", min, max);
+            printf("\nUngueltige Eingabe. Bitte eine Zahl zwischen %d und %d eingeben.\n", min, max);
         }
     }
 }
