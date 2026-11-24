@@ -28,22 +28,6 @@ int getEingabe(char* text, int min, int max) {
     }
 }
 
-int getEingabeInt(char* text) {
-    int eingabe;
-
-    while (1) {
-        printf("%s", text);
-
-        if (scanf("%d", &eingabe) == 1) {
-            clearBuffer();
-            return eingabe;
-        } else {
-            clearBuffer();
-            printf("\nUngueltige Eingabe. Bitte eine Ganzzahl eingeben.");
-        }
-    }
-}
-
 double getEingabeDouble(char* text) {
     double eingabe;
 
